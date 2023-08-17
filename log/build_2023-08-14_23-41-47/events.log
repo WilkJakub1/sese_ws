@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000140] (sese) JobQueued: {'identifier': 'sese', 'dependencies': OrderedDict()}
+[0.000189] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.006128] (sese) JobStarted: {'identifier': 'sese'}
+[0.099160] (-) TimerEvent: {}
+[0.199564] (-) TimerEvent: {}
+[0.299985] (-) TimerEvent: {}
+[0.400399] (-) TimerEvent: {}
+[0.500621] (-) TimerEvent: {}
+[0.540724] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/jakub/sese_ws/build/my_package/build'], 'cwd': '/home/jakub/sese_ws/build/my_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jakub', 'LC_TIME': 'pl_PL.UTF-8', 'SSH_AGENT_PID': '1544', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jakub', 'OLDPWD': '/home/jakub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'MANAGERPID': '1315', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jakub', 'JOURNAL_STREAM': '8:53653', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jakub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kakuter:@/tmp/.ICE-unix/1591,unix/kakuter:/tmp/.ICE-unix/1591', 'INVOCATION_ID': 'a78cfe44e2b742b0b071cabca370ec5f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2fcede74_5ad9_4998_aa29_b81393ea28f2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jakub/sese_ws/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jakub/sese_ws/build/my_package/prefix_override:/home/jakub/sese_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.545270] (sese) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/jakub/sese_ws/build/sese/build'], 'cwd': '/home/jakub/sese_ws/build/sese', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jakub', 'LC_TIME': 'pl_PL.UTF-8', 'SSH_AGENT_PID': '1544', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jakub', 'OLDPWD': '/home/jakub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'MANAGERPID': '1315', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jakub', 'JOURNAL_STREAM': '8:53653', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jakub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kakuter:@/tmp/.ICE-unix/1591,unix/kakuter:/tmp/.ICE-unix/1591', 'INVOCATION_ID': 'a78cfe44e2b742b0b071cabca370ec5f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2fcede74_5ad9_4998_aa29_b81393ea28f2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jakub/sese_ws/build/sese', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jakub/sese_ws/build/sese/prefix_override:/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.600762] (-) TimerEvent: {}
+[0.610937] (my_package) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.611053] (my_package) StderrLine: {'line': b'!!\n'}
+[0.611088] (my_package) StderrLine: {'line': b'\n'}
+[0.611123] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.611152] (my_package) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.611179] (my_package) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.611205] (my_package) StderrLine: {'line': b'\n'}
+[0.611252] (my_package) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.611278] (my_package) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.611304] (my_package) StderrLine: {'line': b'\n'}
+[0.611330] (my_package) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.611356] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.611380] (my_package) StderrLine: {'line': b'\n'}
+[0.611403] (my_package) StderrLine: {'line': b'!!\n'}
+[0.611427] (my_package) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.614390] (sese) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.614473] (sese) StderrLine: {'line': b'!!\n'}
+[0.614507] (sese) StderrLine: {'line': b'\n'}
+[0.614535] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.614562] (sese) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.614589] (sese) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.614615] (sese) StderrLine: {'line': b'\n'}
+[0.614641] (sese) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.614667] (sese) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.614692] (sese) StderrLine: {'line': b'\n'}
+[0.614718] (sese) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.614744] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.614769] (sese) StderrLine: {'line': b'\n'}
+[0.614793] (sese) StderrLine: {'line': b'!!\n'}
+[0.614819] (sese) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.700888] (-) TimerEvent: {}
+[0.711010] (my_package) StdoutLine: {'line': b'running develop\n'}
+[0.711145] (my_package) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[0.711189] (my_package) StderrLine: {'line': b'!!\n'}
+[0.711220] (my_package) StderrLine: {'line': b'\n'}
+[0.711248] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.711276] (my_package) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[0.711303] (my_package) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[0.711329] (my_package) StderrLine: {'line': b'        other standards-based tools.\n'}
+[0.711355] (my_package) StderrLine: {'line': b'\n'}
+[0.711382] (my_package) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[0.711412] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.711436] (my_package) StderrLine: {'line': b'\n'}
+[0.711462] (my_package) StderrLine: {'line': b'!!\n'}
+[0.711486] (my_package) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[0.714619] (sese) StdoutLine: {'line': b'running develop\n'}
+[0.714699] (sese) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[0.714736] (sese) StderrLine: {'line': b'!!\n'}
+[0.714763] (sese) StderrLine: {'line': b'\n'}
+[0.714790] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.714818] (sese) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[0.714844] (sese) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[0.714871] (sese) StderrLine: {'line': b'        other standards-based tools.\n'}
+[0.714897] (sese) StderrLine: {'line': b'\n'}
+[0.714922] (sese) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[0.714947] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.714971] (sese) StderrLine: {'line': b'\n'}
+[0.714995] (sese) StderrLine: {'line': b'!!\n'}
+[0.715019] (sese) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[0.728546] (my_package) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[0.728622] (my_package) StderrLine: {'line': b'!!\n'}
+[0.728655] (my_package) StderrLine: {'line': b'\n'}
+[0.728682] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.728708] (my_package) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[0.728735] (my_package) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[0.728761] (my_package) StderrLine: {'line': b'        other standards-based tools.\n'}
+[0.728787] (my_package) StderrLine: {'line': b'\n'}
+[0.728812] (my_package) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[0.728835] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.728860] (my_package) StderrLine: {'line': b'\n'}
+[0.728884] (my_package) StderrLine: {'line': b'!!\n'}
+[0.728908] (my_package) StderrLine: {'line': b'  self.initialize_options()\n'}
+[0.732178] (sese) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[0.732249] (sese) StderrLine: {'line': b'!!\n'}
+[0.732282] (sese) StderrLine: {'line': b'\n'}
+[0.732316] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.732375] (sese) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[0.732401] (sese) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[0.732427] (sese) StderrLine: {'line': b'        other standards-based tools.\n'}
+[0.732453] (sese) StderrLine: {'line': b'\n'}
+[0.732479] (sese) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[0.732504] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.732528] (sese) StderrLine: {'line': b'\n'}
+[0.732553] (sese) StderrLine: {'line': b'!!\n'}
+[0.732577] (sese) StderrLine: {'line': b'  self.initialize_options()\n'}
+[0.801057] (-) TimerEvent: {}
+[0.835852] (my_package) CommandEnded: {'returncode': 0}
+[0.837746] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/jakub/sese_ws/build/my_package/build', 'install', '--record', '/home/jakub/sese_ws/build/my_package/install.log', '--install-scripts', '$base/lib/my_package', '--single-version-externally-managed'], 'cwd': '/home/jakub/sese_ws/src/my_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jakub', 'LC_TIME': 'pl_PL.UTF-8', 'SSH_AGENT_PID': '1544', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jakub', 'OLDPWD': '/home/jakub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'MANAGERPID': '1315', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jakub', 'JOURNAL_STREAM': '8:53653', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jakub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kakuter:@/tmp/.ICE-unix/1591,unix/kakuter:/tmp/.ICE-unix/1591', 'INVOCATION_ID': 'a78cfe44e2b742b0b071cabca370ec5f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2fcede74_5ad9_4998_aa29_b81393ea28f2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jakub/sese_ws/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jakub/sese_ws/build/my_package/prefix_override:/home/jakub/sese_ws/install/my_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.840175] (sese) CommandEnded: {'returncode': 0}
+[0.840929] (sese) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sese', 'build', '--build-base', '/home/jakub/sese_ws/build/sese/build', 'install', '--record', '/home/jakub/sese_ws/build/sese/install.log', '--install-scripts', '$base/lib/sese', '--single-version-externally-managed'], 'cwd': '/home/jakub/sese_ws/src/sese', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jakub', 'LC_TIME': 'pl_PL.UTF-8', 'SSH_AGENT_PID': '1544', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jakub', 'OLDPWD': '/home/jakub', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pl_PL.UTF-8', 'MANAGERPID': '1315', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jakub', 'JOURNAL_STREAM': '8:53653', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jakub', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/kakuter:@/tmp/.ICE-unix/1591,unix/kakuter:/tmp/.ICE-unix/1591', 'INVOCATION_ID': 'a78cfe44e2b742b0b071cabca370ec5f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2fcede74_5ad9_4998_aa29_b81393ea28f2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.109', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jakub/sese_ws/build/sese', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jakub/sese_ws/build/sese/prefix_override:/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.901263] (-) TimerEvent: {}
+[0.905371] (my_package) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.905476] (my_package) StderrLine: {'line': b'!!\n'}
+[0.905509] (my_package) StderrLine: {'line': b'\n'}
+[0.905536] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.905563] (my_package) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.905589] (my_package) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.905616] (my_package) StderrLine: {'line': b'\n'}
+[0.905641] (my_package) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.905666] (my_package) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.905698] (my_package) StderrLine: {'line': b'\n'}
+[0.905723] (my_package) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.905748] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.905773] (my_package) StderrLine: {'line': b'\n'}
+[0.905797] (my_package) StderrLine: {'line': b'!!\n'}
+[0.905821] (my_package) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.909670] (sese) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.909775] (sese) StderrLine: {'line': b'!!\n'}
+[0.909808] (sese) StderrLine: {'line': b'\n'}
+[0.909835] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.909861] (sese) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.909887] (sese) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.909913] (sese) StderrLine: {'line': b'\n'}
+[0.909938] (sese) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.909968] (sese) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.909993] (sese) StderrLine: {'line': b'\n'}
+[0.910018] (sese) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.910044] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.910068] (sese) StderrLine: {'line': b'\n'}
+[0.910092] (sese) StderrLine: {'line': b'!!\n'}
+[0.910117] (sese) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.958201] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.962500] (sese) StdoutLine: {'line': b'running egg_info\n'}
+[0.966822] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[0.967102] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[0.967205] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[0.967276] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[0.967341] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[0.970941] (sese) StdoutLine: {'line': b'writing ../../build/sese/sese.egg-info/PKG-INFO\n'}
+[0.971169] (sese) StdoutLine: {'line': b'writing dependency_links to ../../build/sese/sese.egg-info/dependency_links.txt\n'}
+[0.971254] (sese) StdoutLine: {'line': b'writing entry points to ../../build/sese/sese.egg-info/entry_points.txt\n'}
+[0.971324] (sese) StdoutLine: {'line': b'writing requirements to ../../build/sese/sese.egg-info/requires.txt\n'}
+[0.971388] (sese) StdoutLine: {'line': b'writing top-level names to ../../build/sese/sese.egg-info/top_level.txt\n'}
+[1.001451] (-) TimerEvent: {}
+[1.039098] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.039427] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.039528] (my_package) StdoutLine: {'line': b'running build\n'}
+[1.039599] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[1.039805] (my_package) StdoutLine: {'line': b'running install\n'}
+[1.039904] (my_package) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.039975] (my_package) StderrLine: {'line': b'!!\n'}
+[1.040038] (my_package) StderrLine: {'line': b'\n'}
+[1.040098] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.040158] (my_package) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.040216] (my_package) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[1.040274] (my_package) StderrLine: {'line': b'        other standards-based tools.\n'}
+[1.040341] (my_package) StderrLine: {'line': b'\n'}
+[1.040401] (my_package) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.040460] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.040519] (my_package) StderrLine: {'line': b'\n'}
+[1.040578] (my_package) StderrLine: {'line': b'!!\n'}
+[1.040636] (my_package) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.042450] (sese) StdoutLine: {'line': b"reading manifest file '../../build/sese/sese.egg-info/SOURCES.txt'\n"}
+[1.042782] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.042913] (sese) StdoutLine: {'line': b"writing manifest file '../../build/sese/sese.egg-info/SOURCES.txt'\n"}
+[1.043059] (sese) StdoutLine: {'line': b'running build\n'}
+[1.043174] (sese) StdoutLine: {'line': b'running build_py\n'}
+[1.043523] (sese) StdoutLine: {'line': b'running install\n'}
+[1.043609] (sese) StderrLine: {'line': b'/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.043681] (sese) StderrLine: {'line': b'!!\n'}
+[1.043745] (sese) StderrLine: {'line': b'\n'}
+[1.043809] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.043872] (sese) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.043934] (sese) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer, pypa/build or\n'}
+[1.043996] (sese) StderrLine: {'line': b'        other standards-based tools.\n'}
+[1.044058] (sese) StderrLine: {'line': b'\n'}
+[1.044119] (sese) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.044181] (sese) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.044242] (sese) StderrLine: {'line': b'\n'}
+[1.044303] (sese) StderrLine: {'line': b'!!\n'}
+[1.044517] (sese) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.046532] (sese) StdoutLine: {'line': b'running install_lib\n'}
+[1.051744] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[1.055629] (sese) StdoutLine: {'line': b'byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py to image_display.cpython-38.pyc\n'}
+[1.055912] (sese) StdoutLine: {'line': b'running install_data\n'}
+[1.056032] (sese) StderrLine: {'line': b'  File "/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py", line 20\n'}
+[1.056075] (sese) StderrLine: {'line': b"    detection_subscriber = self.create_subscription(ObjectHypothesisWithPose, topic='/asv_vision/front_cam/detections', self.callback, 10)\n"}
+[1.056107] (sese) StderrLine: {'line': b'                                                                                                                        ^\n'}
+[1.056134] (sese) StderrLine: {'line': b'SyntaxError: positional argument follows keyword argument\n'}
+[1.056163] (sese) StderrLine: {'line': b'\n'}
+[1.060388] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.064501] (sese) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.069275] (my_package) StdoutLine: {'line': b"removing '/home/jakub/sese_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.069352] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/jakub/sese_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[1.069729] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.073390] (sese) StdoutLine: {'line': b"removing '/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.073575] (sese) StdoutLine: {'line': b'Copying ../../build/sese/sese.egg-info to /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info\n'}
+[1.073825] (sese) StdoutLine: {'line': b'running install_scripts\n'}
+[1.101628] (-) TimerEvent: {}
+[1.104142] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/jakub/sese_ws/install/my_package/lib/my_package\n'}
+[1.104271] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/jakub/sese_ws/build/my_package/install.log'\n"}
+[1.107949] (sese) StdoutLine: {'line': b'Installing scan_publisher script to /home/jakub/sese_ws/install/sese/lib/sese\n'}
+[1.108086] (sese) StdoutLine: {'line': b"writing list of installed files to '/home/jakub/sese_ws/build/sese/install.log'\n"}
+[1.119713] (my_package) CommandEnded: {'returncode': 0}
+[1.127554] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.129296] (sese) CommandEnded: {'returncode': 0}
+[1.133224] (sese) JobEnded: {'identifier': 'sese', 'rc': 0}
+[1.133596] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing ../../build/sese/sese.egg-info/PKG-INFO
+writing dependency_links to ../../build/sese/sese.egg-info/dependency_links.txt
+writing entry points to ../../build/sese/sese.egg-info/entry_points.txt
+writing requirements to ../../build/sese/sese.egg-info/requires.txt
+writing top-level names to ../../build/sese/sese.egg-info/top_level.txt
+reading manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+writing manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py to image_display.cpython-38.pyc
+running install_data
+copying rviz/urdf_config.rviz -> /home/jakub/sese_ws/install/sese/share/sese/rviz
+creating /home/jakub/sese_ws/install/sese/share/sese/models

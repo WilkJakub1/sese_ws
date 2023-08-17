@@ -1,0 +1,35 @@
+running develop
+Removing /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese.egg-link (link to .)
+running egg_info
+writing ../../build/sese/sese.egg-info/PKG-INFO
+writing dependency_links to ../../build/sese/sese.egg-info/dependency_links.txt
+writing entry points to ../../build/sese/sese.egg-info/entry_points.txt
+writing requirements to ../../build/sese/sese.egg-info/requires.txt
+writing top-level names to ../../build/sese/sese.egg-info/top_level.txt
+reading manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+writing manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+copying /home/jakub/sese_ws/build/sese/build/lib/sese/__init__.py -> /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+copying /home/jakub/sese_ws/build/sese/build/lib/sese/detect_front.py -> /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+copying /home/jakub/sese_ws/build/sese/build/lib/sese/image_display.py -> /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+copying /home/jakub/sese_ws/build/sese/build/lib/sese/labels.py -> /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+copying /home/jakub/sese_ws/build/sese/build/lib/sese/scan_publisher.py -> /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+copying /home/jakub/sese_ws/build/sese/build/lib/sese/ros2_detect_front.py -> /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+copying /home/jakub/sese_ws/build/sese/build/lib/sese/point_to_laserscan_test.py -> /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/detect_front.py to detect_front.cpython-38.pyc
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py to image_display.cpython-38.pyc
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/labels.py to labels.cpython-38.pyc
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/scan_publisher.py to scan_publisher.cpython-38.pyc
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/ros2_detect_front.py to ros2_detect_front.cpython-38.pyc
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/point_to_laserscan_test.py to point_to_laserscan_test.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/sese/sese.egg-info to /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info
+running install_scripts
+Installing scan_publisher script to /home/jakub/sese_ws/install/sese/lib/sese
+writing list of installed files to '/home/jakub/sese_ws/build/sese/install.log'

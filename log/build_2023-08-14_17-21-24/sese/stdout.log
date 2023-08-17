@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing sese.egg-info/PKG-INFO
+writing dependency_links to sese.egg-info/dependency_links.txt
+writing entry points to sese.egg-info/entry_points.txt
+writing requirements to sese.egg-info/requires.txt
+writing top-level names to sese.egg-info/top_level.txt
+reading manifest file 'sese.egg-info/SOURCES.txt'
+writing manifest file 'sese.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese.egg-link (link to .)
+Installing scan_publisher script to /home/jakub/sese_ws/install/sese/lib/sese
+
+Installed /home/jakub/sese_ws/build/sese
+running install_data
+copying package.xml -> /home/jakub/sese_ws/install/sese/share/sese

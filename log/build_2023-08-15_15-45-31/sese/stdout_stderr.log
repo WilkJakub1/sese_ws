@@ -1,0 +1,96 @@
+/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2023-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running develop
+/home/jakub/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer, pypa/build or
+        other standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer, pypa/build or
+        other standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+/home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2023-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running egg_info
+writing ../../build/sese/sese.egg-info/PKG-INFO
+writing dependency_links to ../../build/sese/sese.egg-info/dependency_links.txt
+writing entry points to ../../build/sese/sese.egg-info/entry_points.txt
+writing requirements to ../../build/sese/sese.egg-info/requires.txt
+writing top-level names to ../../build/sese/sese.egg-info/top_level.txt
+reading manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+writing manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer, pypa/build or
+        other standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py to image_display.cpython-38.pyc
+  File "/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py", line 20
+    detection_subscriber = self.create_subscription(ObjectHypothesisWithPose, topic='/asv_vision/front_cam/detections', self.callback, 10)
+                                                                                                                        ^
+SyntaxError: positional argument follows keyword argument
+
+running install_data
+copying launch/launch_sim.launch.py -> /home/jakub/sese_ws/install/sese/share/sese/launch
+running install_egg_info
+removing '/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/sese/sese.egg-info to /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info
+running install_scripts
+Installing scan_publisher script to /home/jakub/sese_ws/install/sese/lib/sese
+writing list of installed files to '/home/jakub/sese_ws/build/sese/install.log'

@@ -1,0 +1,58 @@
+[0.583s] Invoking command in '/home/jakub/sese_ws/build/my_package': PYTHONPATH=/home/jakub/sese_ws/build/my_package/prefix_override:/home/jakub/sese_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jakub/sese_ws/build/my_package/build --no-deps install_data
+[0.661s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.661s] !!
+[0.661s] 
+[0.661s]         ********************************************************************************
+[0.661s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.661s]         versions. Please use the underscore name 'script_dir' instead.
+[0.661s] 
+[0.661s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.661s]         or your builds will no longer be supported.
+[0.661s] 
+[0.662s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.662s]         ********************************************************************************
+[0.662s] 
+[0.662s] !!
+[0.662s]   opt = self.warn_dash_deprecation(opt, section)
+[0.773s] running develop
+[0.774s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.774s] !!
+[0.774s] 
+[0.774s]         ********************************************************************************
+[0.774s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.774s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[0.774s]         other standards-based tools.
+[0.774s] 
+[0.774s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.774s]         ********************************************************************************
+[0.774s] 
+[0.774s] !!
+[0.774s]   easy_install.initialize_options(self)
+[0.791s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.791s] !!
+[0.792s] 
+[0.792s]         ********************************************************************************
+[0.792s]         Please avoid running ``setup.py`` directly.
+[0.792s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[0.792s]         other standards-based tools.
+[0.792s] 
+[0.792s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.792s]         ********************************************************************************
+[0.792s] 
+[0.792s] !!
+[0.792s]   self.initialize_options()
+[0.889s] running egg_info
+[0.898s] writing my_package.egg-info/PKG-INFO
+[0.899s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.899s] writing entry points to my_package.egg-info/entry_points.txt
+[0.899s] writing requirements to my_package.egg-info/requires.txt
+[0.899s] writing top-level names to my_package.egg-info/top_level.txt
+[0.916s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.917s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.953s] running build_ext
+[0.953s] Creating /home/jakub/sese_ws/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)
+[0.953s] Installing my_node script to /home/jakub/sese_ws/install/my_package/lib/my_package
+[0.954s] 
+[0.954s] Installed /home/jakub/sese_ws/build/my_package
+[0.954s] running install_data
+[0.987s] Invoked command in '/home/jakub/sese_ws/build/my_package' returned '0': PYTHONPATH=/home/jakub/sese_ws/build/my_package/prefix_override:/home/jakub/sese_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jakub/sese_ws/build/my_package/build --no-deps install_data

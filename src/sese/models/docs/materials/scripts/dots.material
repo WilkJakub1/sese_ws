@@ -1,0 +1,14 @@
+material Dots/Diffuse
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                heart.png
+            }
+        }
+    }
+}

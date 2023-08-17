@@ -1,0 +1,2 @@
+[console_scripts]
+scan_publisher = sese.scan_publisher:main
