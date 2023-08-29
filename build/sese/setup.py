@@ -1,1 +1,1 @@
-/home/jakub/sese_ws/src/sese/setup.py
+/home/jakub/my_ws/sese_ws/src/sese/setup.py

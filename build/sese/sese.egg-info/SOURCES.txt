@@ -32,8 +32,12 @@ sese/labels.py
 sese/point_to_laserscan_test.py
 sese/ros2_detect_front.py
 sese/scan_publisher.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+sese.egg-info/PKG-INFO
+sese.egg-info/SOURCES.txt
+sese.egg-info/dependency_links.txt
+sese.egg-info/entry_points.txt
+sese.egg-info/requires.txt
+sese.egg-info/top_level.txt
+sese.egg-info/zip-safe
 worlds/empty.world
 worlds/worlds_combined.world

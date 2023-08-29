@@ -1,1 +1,1 @@
-/home/jakub/sese_ws/src/sese/launch/launch_sim.launch.py
+/home/jakub/my_ws/sese_ws/src/sese/launch/launch_sim.launch.py
