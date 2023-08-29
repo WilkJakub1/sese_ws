@@ -1,5 +1,6 @@
 How to run:
 * install ros2 foxy and nav2 package (https://navigation.ros.org/getting_started/index.html)
+* pip install xacro
 * copy the sese_ws repository
 * `cd sese_ws`
 * `source install/setup.bash` to source the workspace
