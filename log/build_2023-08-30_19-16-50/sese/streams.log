@@ -1,0 +1,100 @@
+[0.456s] Invoking command in '/home/jakub/sese_ws/build/sese': PYTHONPATH=/home/jakub/sese_ws/build/sese/prefix_override:/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jakub/sese_ws/build/sese/build
+[0.530s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.530s] !!
+[0.530s] 
+[0.530s]         ********************************************************************************
+[0.530s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.530s]         versions. Please use the underscore name 'script_dir' instead.
+[0.530s] 
+[0.530s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.530s]         or your builds will no longer be supported.
+[0.530s] 
+[0.530s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.530s]         ********************************************************************************
+[0.530s] 
+[0.530s] !!
+[0.530s]   opt = self.warn_dash_deprecation(opt, section)
+[0.632s] running develop
+[0.632s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.632s] !!
+[0.632s] 
+[0.632s]         ********************************************************************************
+[0.632s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.632s]         Instead, use pypa/build, pypa/installer or other
+[0.632s]         standards-based tools.
+[0.632s] 
+[0.632s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.632s]         ********************************************************************************
+[0.632s] 
+[0.632s] !!
+[0.632s]   easy_install.initialize_options(self)
+[0.650s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.650s] !!
+[0.650s] 
+[0.650s]         ********************************************************************************
+[0.650s]         Please avoid running ``setup.py`` directly.
+[0.650s]         Instead, use pypa/build, pypa/installer or other
+[0.650s]         standards-based tools.
+[0.650s] 
+[0.650s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.650s]         ********************************************************************************
+[0.650s] 
+[0.650s] !!
+[0.650s]   self.initialize_options()
+[0.757s] Invoked command in '/home/jakub/sese_ws/build/sese' returned '0': PYTHONPATH=/home/jakub/sese_ws/build/sese/prefix_override:/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jakub/sese_ws/build/sese/build
+[0.759s] Invoking command in '/home/jakub/sese_ws/src/sese': PYTHONPATH=/home/jakub/sese_ws/build/sese/prefix_override:/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sese build --build-base /home/jakub/sese_ws/build/sese/build install --record /home/jakub/sese_ws/build/sese/install.log --install-scripts $base/lib/sese --single-version-externally-managed
+[0.827s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.827s] !!
+[0.827s] 
+[0.828s]         ********************************************************************************
+[0.828s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.828s]         versions. Please use the underscore name 'script_dir' instead.
+[0.828s] 
+[0.828s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.828s]         or your builds will no longer be supported.
+[0.828s] 
+[0.828s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.828s]         ********************************************************************************
+[0.828s] 
+[0.828s] !!
+[0.828s]   opt = self.warn_dash_deprecation(opt, section)
+[0.892s] running egg_info
+[0.900s] writing ../../build/sese/sese.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../build/sese/sese.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../build/sese/sese.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../build/sese/sese.egg-info/requires.txt
+[0.900s] writing top-level names to ../../build/sese/sese.egg-info/top_level.txt
+[0.973s] reading manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+[0.974s] writing manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+[0.974s] running build
+[0.974s] running build_py
+[0.974s] running install
+[0.974s] /home/jakub/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.974s] !!
+[0.974s] 
+[0.974s]         ********************************************************************************
+[0.974s]         Please avoid running ``setup.py`` directly.
+[0.974s]         Instead, use pypa/build, pypa/installer or other
+[0.974s]         standards-based tools.
+[0.975s] 
+[0.975s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.975s]         ********************************************************************************
+[0.975s] 
+[0.975s] !!
+[0.975s]   self.initialize_options()
+[0.977s] running install_lib
+[0.986s] byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py to image_display.cpython-38.pyc
+[0.986s] running install_data
+[0.986s]   File "/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py", line 20
+[0.986s]     detection_subscriber = self.create_subscription(ObjectHypothesisWithPose, topic='/asv_vision/front_cam/detections', self.callback, 10)
+[0.986s]                                                                                                                         ^
+[0.986s] SyntaxError: positional argument follows keyword argument
+[0.987s] 
+[0.995s] copying launch/launch_sim.launch.py -> /home/jakub/sese_ws/install/sese/share/sese/launch
+[0.995s] running install_egg_info
+[1.004s] removing '/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info' (and everything under it)
+[1.004s] Copying ../../build/sese/sese.egg-info to /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info
+[1.004s] running install_scripts
+[1.031s] Installing scan_publisher script to /home/jakub/sese_ws/install/sese/lib/sese
+[1.031s] writing list of installed files to '/home/jakub/sese_ws/build/sese/install.log'
+[1.046s] Invoked command in '/home/jakub/sese_ws/src/sese' returned '0': PYTHONPATH=/home/jakub/sese_ws/build/sese/prefix_override:/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sese build --build-base /home/jakub/sese_ws/build/sese/build install --record /home/jakub/sese_ws/build/sese/install.log --install-scripts $base/lib/sese --single-version-externally-managed

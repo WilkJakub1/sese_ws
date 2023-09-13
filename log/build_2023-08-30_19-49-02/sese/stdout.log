@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing ../../build/sese/sese.egg-info/PKG-INFO
+writing dependency_links to ../../build/sese/sese.egg-info/dependency_links.txt
+writing entry points to ../../build/sese/sese.egg-info/entry_points.txt
+writing requirements to ../../build/sese/sese.egg-info/requires.txt
+writing top-level names to ../../build/sese/sese.egg-info/top_level.txt
+reading manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+writing manifest file '../../build/sese/sese.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese/image_display.py to image_display.cpython-38.pyc
+running install_data
+copying description/robot_core.xacro -> /home/jakub/sese_ws/install/sese/share/sese/description
+running install_egg_info
+removing '/home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/sese/sese.egg-info to /home/jakub/sese_ws/install/sese/lib/python3.8/site-packages/sese-0.0.0-py3.8.egg-info
+running install_scripts
+Installing scan_publisher script to /home/jakub/sese_ws/install/sese/lib/sese
+writing list of installed files to '/home/jakub/sese_ws/build/sese/install.log'

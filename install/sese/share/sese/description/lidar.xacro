@@ -32,22 +32,22 @@
             <visualize>true</visualize>
             <update_rate>5</update_rate>
             <ray>
-            <!-- <scan>
+            <scan>
                 <horizontal>
                 <samples>360</samples>
                 <resolution>1.000000</resolution>
                 <min_angle>0.000000</min_angle>
                 <max_angle>6.280000</max_angle>
                 </horizontal>
-            </scan> -->
-            <scan>
+            </scan>
+            <!-- <scan>
                 <horizontal>
                 <samples>180</samples>
                 <resolution>1.000000</resolution>
                 <min_angle>1.570000</min_angle>
                 <max_angle>-1.570000</max_angle>
                 </horizontal>
-            </scan>
+            </scan> -->
             <range>
                 <min>0.50000</min>
                 <max>20</max>
@@ -59,9 +59,9 @@
                 <stddev>0.01</stddev>
             </noise>
             </ray>
-            <plugin name="my_scan" filename="libgazebo_ros_ray_sensor.so">
+            <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
             <ros>
-                <remapping>~/out:=my_scan</remapping>
+                <remapping>~/out:=scan</remapping>
             </ros>
             <output_type>sensor_msgs/LaserScan</output_type>
             <frame_name>laser_frame</frame_name>

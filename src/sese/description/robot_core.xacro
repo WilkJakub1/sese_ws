@@ -159,7 +159,7 @@
     </gazebo>
 
 
-    <!-- <link name="imu_link">
+    <link name="imu_link">
         <visual>
             <geometry>
                 <box size="0.1 0.1 0.1"/>
@@ -176,19 +176,19 @@
         <xacro:inertial_box mass="0.1" x="0.1" y="0.1" z="0.1">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_box>
-    </link> -->
+    </link>
 
-    <!-- <gazebo reference="imu_link">
+    <gazebo reference="imu_link">
         <material>Gazebo/Red</material>
-    </gazebo> -->
+    </gazebo>
 
-    <!-- <joint name="imu_joint" type="fixed">
+    <joint name="imu_joint" type="fixed">
     <parent link="base_link"/>
     <child link="imu_link"/>
     <origin xyz="0 0 0.15"/>
-    </joint> -->
+    </joint>
 
-    <!-- <gazebo reference="imu_link">
+    <gazebo reference="imu_link">
     <sensor name="imu_sensor" type="imu">
     <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
         <ros>
@@ -255,5 +255,5 @@
         </linear_acceleration>
         </imu>
     </sensor>
-    </gazebo> -->
+    </gazebo>
 </robot>
