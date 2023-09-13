@@ -110,11 +110,11 @@ def generate_launch_description():
         spawn_entity,
         # robot_localization_node,
         rsp,
-        slam,
+        # slam,
         # transform,
         # scan_publisher,
         # nav2, 
         joint_state_publisher_node,
-        rviz_launch,
+        # rviz_launch,
         # rviz_node
     ])
